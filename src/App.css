@@ -1,0 +1,40 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.page-title {
+  color: #13AD89;
+}
+.tourquise, .tourquise:hover{
+  background-color: #13AD89;
+  border: 2px solid #BBEBDB;
+}
+.bg-body-tertiary {
+  border: 2px solid #BBEBDB;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust this value to control the vertical spacing */
+  background-color: #BBEBDB;
+  border:none;
+  min-width: 360px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  font-weight: bold;
+  min-width: 100px;
+}
